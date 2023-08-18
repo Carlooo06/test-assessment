@@ -1,0 +1,8 @@
+1. first install sveltekit
+2. in +page.svelte import the component/calculator.svelte and header.svelte.
+3. create calculator component that takes the user inputs and sends it to the server and display the result.
+4. It has buttons for numbers, operators (+, -, *, /), and functions like "C" (clear) and "=" (calculate).
+5. when clicking the "=" symbol calculate the user input or if there's an error, it shows a "Error" message.
+6. in serve.ts get a request and check if the request have an a input in the function and tries to do a calculation based on the input.
+7. if there's an error while trying to calculate the result show error message.
+8. if the calculation is successful. send back the response and show the result to the UI.
